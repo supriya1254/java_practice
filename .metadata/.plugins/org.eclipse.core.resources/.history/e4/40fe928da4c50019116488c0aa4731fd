@@ -1,0 +1,18 @@
+package Program;
+
+import java.util.HashMap;
+
+public class IterateHashMap {
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+		
+		HashMap<Integer,String> map = new HashMap<Integer, String>();
+		map.put(101, "Supriya");
+		map.put(102, "Surbhi");
+		map.put(103, "Sweta");
+
+	}
+
+}

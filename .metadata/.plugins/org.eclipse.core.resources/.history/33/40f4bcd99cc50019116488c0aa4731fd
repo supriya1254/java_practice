@@ -1,0 +1,24 @@
+package Program;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayToArrayList {
+
+	public static void main(String[] args) 
+	{
+		String array[] = {"Sup","Dup","Pup","Zup","Rup"};
+		
+		ArrayList<String> list = new ArrayList<String>();
+		
+		for(String arrStr : array)
+		{
+		System.out.println(" array : " + arrStr);
+		}
+		
+		
+		
+		
+	}
+
+}

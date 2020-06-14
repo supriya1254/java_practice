@@ -1,0 +1,22 @@
+package JavaBasic;
+
+public class JavaOperator {
+
+	public static void main(String[] args) 
+	{
+		
+		//ternary operator
+		int i1 =111;
+		
+		if(i1 == 10)
+		{
+			System.out.println("print i1 : " + i1);
+		}
+		else
+		{
+			System.out.println("no value availble to print!!");
+		}
+
+	}
+
+}

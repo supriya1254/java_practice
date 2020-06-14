@@ -1,0 +1,38 @@
+package program;
+
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+
+public class SortByValueInHashmap implements Comparator<SortHashmapByValueMain>
+{
+	
+	/*
+	 * int key; String value;
+	 * 
+	 * SortByValueInHashmap(int key , String value) { this.key = key; this.value=
+	 * value; }
+	 */
+
+	private static HashMap sortByValues(HashMap map) { 
+	       List list = new LinkedList(map.entrySet());
+	       // Defined Custom Comparator here
+	       Collections.sort(list, new Comparator() {
+	            public int compare(Object o1, Object o2) {
+	               return ((Comparable) ((Map.Entry) (o1)).getValue())
+	                  .compareTo(((Map.Entry) (o2)).getValue());
+	            }
+	       });
+		return map;
+	}
+
+	@Override
+	public int compare(SortHashmapByValueMain o1, SortHashmapByValueMain o2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+}
+

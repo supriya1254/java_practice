@@ -1,0 +1,13 @@
+package Program;
+
+import java.util.HashSet;
+
+public class TraverseHashSet {
+
+	public static void main(String[] args)
+	{
+		HashSet<Integer> hash = new HashSet<Integer>();
+
+	}
+
+}

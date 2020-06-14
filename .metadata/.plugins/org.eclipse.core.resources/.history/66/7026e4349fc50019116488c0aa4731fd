@@ -1,0 +1,25 @@
+package Program;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class ArrayToArrayList {
+
+	public static void main(String[] args) 
+	{
+		String array[] = {"Sup","Dup","Pup","Zup","Rup"};
+		ArrayList<String> list = new ArrayList<String>();
+		list = (ArrayList<String>) Arrays.asList(array);
+		
+		for(int i=)
+		  
+		 
+		
+		
+		
+		
+		
+	}
+
+}

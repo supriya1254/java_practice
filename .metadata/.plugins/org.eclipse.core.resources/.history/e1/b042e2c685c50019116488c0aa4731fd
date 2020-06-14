@@ -1,0 +1,15 @@
+package Program;
+
+import java.util.ArrayList;
+
+public class TraverseArrayList {
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+		
+		List<Integer> li = new ArrayList<Integer>();
+
+	}
+
+}

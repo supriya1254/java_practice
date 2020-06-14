@@ -1,0 +1,25 @@
+package Program;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayListToArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<String> li = new ArrayList<String>();
+		li.add("a");
+		li.add("b");
+		li.add("c");
+		li.add("d");
+		li.add("e");
+
+		String arrayStore[] = new String[li.size()];
+
+		for (int i = 0; i < arrayStore.length; i++) {
+			System.out.println(i);
+		}
+
+	}
+
+}

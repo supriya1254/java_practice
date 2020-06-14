@@ -1,0 +1,37 @@
+package Inheritance;
+
+class DemoOut
+{
+  
+	private int i;
+	
+	
+	class DemoInn
+	{
+		void display()
+		{
+			System.out.println("print i : " + i);
+		}
+	}
+
+
+}
+
+class Child extends DemoOut
+{
+	}
+
+public class SuperClass 
+{
+	public static void main(String[] args) 
+	{
+		DemoOut out = new DemoOut();
+		
+		
+		
+		
+	}
+
+}
+
+

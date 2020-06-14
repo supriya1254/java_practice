@@ -1,0 +1,22 @@
+package Program;
+
+import java.util.Comparator;
+import java.util.Map;
+
+public class SortByValueInHashmap implements Comparator<SortHashMap>
+{
+	
+	/*
+	 * int key; String value;
+	 * 
+	 * SortByValueInHashmap(int key , String value) { this.key = key; this.value=
+	 * value; }
+	 */
+
+	@Override
+	public int compare(SortHashMap o1, SortHashMap o2) {
+		return ((Comparable) ((Map.Entry) (o1)).getValue())
+                .compareTo(((Map.Entry) (o2)).getValue());
+	}
+
+}

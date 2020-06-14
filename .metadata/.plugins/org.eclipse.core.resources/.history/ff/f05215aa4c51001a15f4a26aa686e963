@@ -1,0 +1,35 @@
+package Inheritance;
+
+class DemoOut
+{
+  
+	private int i;
+	
+	
+	class DemoInn
+	{
+		void display()
+		{
+			System.out.println("print i : " + i);
+		}
+	}
+
+
+}
+
+public class SuperClass 
+{
+	private 
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+class Subclass extends SuperClass
+{
+
+}

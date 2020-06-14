@@ -1,0 +1,36 @@
+package Program;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayListToArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<String> li = new ArrayList<String>();
+		li.add("a");
+		li.add("b");
+		li.add("c");
+		li.add("d");
+		li.add("e");
+
+		String arrayStore[] = new String[li.size()];
+
+		for (int i = 0; i < li.size(); i++) {
+			
+			arrayStore[i] = li.get(i);
+			
+			System.out.println(" displaying the arraylist value : " + li.get(i) );
+		}
+		
+		//displaying value from array now.
+		
+		for(String arrayStr : arrayStore)
+		{
+			System.out.println(" arrayValues : " + arrayStr);
+			
+		}
+
+	}
+
+}

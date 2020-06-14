@@ -1,0 +1,25 @@
+package Program;
+
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class TraverseHashSet {
+
+	public static void main(String[] args)
+	{
+		HashSet<Integer> hash = new HashSet<Integer>();
+		hash.add(100);
+		hash.add(200);
+		hash.add(300);
+		hash.add(400);
+		hash.add(500);
+		
+		/*
+		 * //through iterator method: Iterator<Integer> itr = hash.iterator();
+		 * 
+		 * while(itr.hasNext()) { System.out.println(itr.next()); }
+		 */
+
+	}
+
+}

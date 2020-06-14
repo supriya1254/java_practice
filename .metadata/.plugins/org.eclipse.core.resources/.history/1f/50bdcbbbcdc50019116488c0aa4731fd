@@ -1,0 +1,28 @@
+package Program;
+
+import java.util.ArrayList;
+
+public class SortListByComaparable implements Comparable<T> {
+
+	public static void main(String[] args) 
+	{
+		
+		ArrayList<Integer> arrayList = new ArrayList<Integer>();
+		
+		arrayList.add(101);
+		arrayList.add(102);
+		arrayList.add(103);
+		arrayList.add(104);
+		arrayList.add(105);
+		
+		
+
+	}
+
+	@Override
+	public int compareTo(T o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

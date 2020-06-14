@@ -1,0 +1,49 @@
+package Program;
+
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeMap;
+import java.util.TreeSet;
+
+public class SortHashmapByValueMain {
+
+	public static void main(String[] args) {
+		HashMap<Integer, String> hashmap = new HashMap<Integer, String>();
+		hashmap.put(101, "Supriya");
+		hashmap.put(102, "anvita");
+		hashmap.put(107, "Surbhi");
+		hashmap.put(105, "krishna");
+		hashmap.put(103, "pritisha");
+		
+		 Map<Integer, String> map = sortByValues(hashmap);
+		 Set s = map.entrySet();
+		 Iterator itr = s.iterator();
+		 while(itr.hasNext())
+		 {
+			 Map.Entry entry = (Map.Entry)itr.next();
+			 System.out.println("value : " + entry.getValue());
+		 }
+		
+
+	}
+
+	private static Map<Integer, String> sortByValues(HashMap<Integer, String> hashmap) {
+		List  list =  new LinkedList(hashmap.entrySet());
+		Collections.sort(list, new Comparator() {
+			public int compare(Object o1, Object o2)
+			{
+				return ((Comparable<T>))
+			}
+			
+		});
+		return null;
+	}
+
+}
